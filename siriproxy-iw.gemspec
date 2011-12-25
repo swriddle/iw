@@ -7,6 +7,6 @@ Gem::Specification.new do |s|
   s.summary = %q{A siriproxy plugin that queries instantwatcher}
   s.description = %q{A siriproxy plugin that queries instantwatcher}
 
-  s.files = Dir.glob("{lib}/**/*) + %w(Rakefile README.rdoc Gemfile LICENSE.txt)
+  s.files = Dir.glob("{lib}/**/*") + %w(Rakefile README.rdoc Gemfile LICENSE.txt)
   s.require_path = 'lib'
 end
